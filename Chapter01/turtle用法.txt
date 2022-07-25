@@ -1,0 +1,66 @@
+https://docs.python.org/3.6/library/frameworks.html
+
+from turtle import *
+1 画笔运动命令
+turtle.forward(distance)3d
+向当前画笔方向移动distance像素长度rest
+
+turtle.backward(distance)code
+向当前画笔相反方向移动distance像素长度
+
+turtle.right(degree)
+顺时针移动degree°
+
+turtle.left(degree)
+逆时针移动degree°
+
+turtle.pendown()
+移动时绘制图形，缺省时也为绘制
+
+turtle.goto(x,y)
+将画笔移动到坐标为x,y的位置
+
+turtle.penup()
+提起笔移动，不绘制图形，用于另起一个地方绘制
+
+turtle.circle()
+画圆，半径为正(负)，表示圆心在画笔的左边(右边)画圆
+
+setx( )
+将当前x轴移动到指定位置
+
+sety( )
+将当前y轴移动到指定位置
+
+setheading(angle)
+设置当前朝向为angle角度
+
+home()
+设置当前画笔位置为原点，朝向东。
+
+dot(r)
+绘制一个指定直径和颜色的圆点
+
+
+2 画笔控制命令
+
+turtle.fillcolor(colorstring)
+绘制图形的填充颜色
+
+turtle.color(color1, color2)
+同时设置pencolor=color1, fillcolor=color2
+
+turtle.filling()
+返回当前是否在填充状态
+
+turtle.begin_fill()
+准备开始填充图形
+
+turtle.end_fill()
+填充完成
+
+turtle.hideturtle()
+隐藏画笔的turtle形状
+
+turtle.showturtle()
+显示画笔的turtle形状
